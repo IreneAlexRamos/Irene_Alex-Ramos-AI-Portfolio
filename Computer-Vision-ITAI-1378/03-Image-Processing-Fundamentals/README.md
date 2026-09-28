@@ -12,6 +12,12 @@ The notebook treats images as NumPy arrays and explores RGB channels, grayscale 
 
 All 12 code cells were executed successfully, and the notebook retains its plots and processed-image outputs. The experiments show how channel operations alter color, kernels blur or emphasize edges, histogram techniques change contrast, and geometric operations change spatial layout.
 
+Selected notebook outputs are also saved separately for quick review:
+
+![Blur, edge-detection, and sharpening filters](results/filter-and-edge-effects.png)
+
+![Histogram and contrast-enhancement comparison](results/histogram-enhancement.png)
+
 ## Key Findings
 
 - Images are height × width × channel matrices rather than continuous objects.
@@ -25,12 +31,13 @@ Python, OpenCV, NumPy, Pillow, Matplotlib, Requests, and Google Colab.
 
 ## Data
 
-The notebook creates or loads sample images during execution. No large dataset is stored in this repository.
+The saved run uses a programmatically generated test pattern, so no external dataset is required. When network access is available, the notebook can also download the public [Vd-Orig sample image from Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Vd-Orig.png). No large dataset is stored in this repository.
 
 ## Files
 
 - [Image-Processing-From-Pixels-to-Perception.ipynb](Image-Processing-From-Pixels-to-Perception.ipynb)
 - [Image-Processing-Reflection.pdf](Image-Processing-Reflection.pdf)
+- [Saved result images](results/)
 
 ## How to Run
 
