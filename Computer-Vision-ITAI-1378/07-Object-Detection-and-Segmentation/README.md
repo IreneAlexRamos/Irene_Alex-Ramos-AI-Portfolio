@@ -21,6 +21,12 @@ The notebook uses YOLO11 for object detection, YOLO11-seg for instance segmentat
 
 COCO8 contains only eight images and is intended to verify a training pipeline, not to establish a production benchmark.
 
+![YOLO11 detections at three confidence thresholds](results/confidence-threshold-comparison.png)
+
+![Object detection boxes compared with instance-segmentation masks](results/detection-vs-segmentation.png)
+
+![SAM 2 segmentation prompted by YOLO11 boxes](results/yolo-sam2-segmentation.png)
+
 ## Key Findings
 
 - Bounding boxes are sufficient for many counting and tracking tasks, while masks are needed when shape boundaries matter.
@@ -34,11 +40,12 @@ Python, Ultralytics, YOLO11, YOLO11-seg, YOLO-World, SAM 2, PyTorch, Pillow, Num
 
 ## Data and Models
 
-Sample images, COCO8, and pretrained model weights are downloaded during execution. They are intentionally not stored in this repository.
+The notebook downloads the public [Ultralytics bus sample image](https://ultralytics.com/images/bus.jpg), [COCO8 learning dataset](https://docs.ultralytics.com/datasets/detect/coco8/), and pretrained [YOLO11 models](https://docs.ultralytics.com/models/yolo11/) during execution. COCO8 has four training and four validation images and is intended for pipeline checks. The external data and model weights are not stored in this repository.
 
-## File
+## Files
 
 - [YOLO11-SAM2-Detection-Segmentation.ipynb](YOLO11-SAM2-Detection-Segmentation.ipynb)
+- [Saved result images](results/)
 
 ## How to Run
 
