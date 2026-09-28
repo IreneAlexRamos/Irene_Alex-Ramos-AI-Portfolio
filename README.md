@@ -80,3 +80,7 @@ Some notebooks use Colab-specific helpers or download model weights at runtime, 
 ## Attribution
 
 Several assignments began with instructor- or tutorial-provided lab templates and were completed with my code, experiments, outputs, and written reflections. Dataset, framework, and tutorial credits are listed in [ATTRIBUTION.md](ATTRIBUTION.md) and in the notebooks themselves.
+
+### AI Assistance Disclosure
+
+I used ChatGPT to help organize this portfolio, improve README wording and formatting, and extract visualizations from my completed notebooks. The underlying coursework, code, experiments, outputs, analysis, and reflections are my own. I reviewed and understand all content included in this portfolio.
