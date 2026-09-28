@@ -21,7 +21,6 @@ My goal is to build a career that combines AI, computer vision, and eventually r
 | [CNN: Chihuahua vs. Muffin](Computer-Vision-ITAI-1378/06-CNN-Chihuahua-vs-Muffin/) | Built and evaluated a PyTorch convolutional neural network on a difficult two-class image task | 90.0% final validation accuracy; 100% peak accuracy on the small validation set |
 | [Classical ML Face Recognition](Computer-Vision-ITAI-1378/04-Classical-ML-Face-Recognition/) | Compared HOG and LBP features with SVM and Random Forest classifiers | SVM + HOG reached 96.3% validation accuracy with the smallest observed generalization gap |
 | [Object Detection and Segmentation](Computer-Vision-ITAI-1378/07-Object-Detection-and-Segmentation/) | Used YOLO11 and SAM 2 for detection and segmentation, then explored evaluation and fine-tuning | COCO8 learning exercise reached 0.844 mAP50 after five epochs |
-| [Gnasher Group](Computer-Vision-ITAI-1378/08-Gnasher-Group-Midterm/) | Designed an EfficientNet-B0 transfer-learning application that predicts a dog's AKC group | Midterm blueprint and implementation plan in progress |
 
 > Metrics are reported from the saved notebook outputs. Small classroom datasets are useful for learning, but these results should not be interpreted as production benchmarks.
 
@@ -74,9 +73,9 @@ Some notebooks use Colab-specific helpers or download model weights at runtime, 
 
 ## Contact
 
+- Email: [IreneRamos1995@yahoo.com](mailto:IreneRamos1995@yahoo.com)
+- LinkedIn: [linkedin.com/in/irene-alex-ramos-360974317](https://www.linkedin.com/in/irene-alex-ramos-360974317)
 - GitHub: [github.com/IreneAlexRamos](https://github.com/IreneAlexRamos)
-
-<!-- Before final submission, add a professional email address and LinkedIn URL here. -->
 
 ## Attribution
 
