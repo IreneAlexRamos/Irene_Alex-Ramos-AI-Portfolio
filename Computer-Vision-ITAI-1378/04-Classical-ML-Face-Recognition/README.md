@@ -25,6 +25,12 @@ The notebook loads the Olivetti Faces dataset, splits 400 images into training (
 
 SVM + HOG was selected from the displayed validation results. A separate cross-validation exercise produced a mean score of 77.9% ± 7.5%, reinforcing that a single split can give an optimistic estimate. The notebook does not display a final held-out test score, so none is claimed here.
 
+The `results/` folder preserves two visualizations from the notebook's deliberate overfitting and generalization exercises:
+
+![Validation confusion matrix from the overfitting exercise](results/validation-confusion-matrix.png)
+
+![Training and validation accuracy gap comparison](results/generalization-gap.png)
+
 ## Key Findings
 
 - HOG captured more useful face structure than LBP in this experiment.
@@ -38,11 +44,12 @@ Python, scikit-learn, scikit-image, NumPy, OpenCV, Matplotlib, and Seaborn.
 
 ## Data
 
-The notebook loads Olivetti Faces through `sklearn.datasets.fetch_olivetti_faces()`. The public dataset is not committed to GitHub.
+The notebook loads the public [Olivetti Faces dataset through scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.fetch_olivetti_faces.html) with `fetch_olivetti_faces()`. Scikit-learn downloads it automatically on the first run; the dataset is not committed to GitHub.
 
-## File
+## Files
 
 - [Classical-ML-Face-Recognition.ipynb](Classical-ML-Face-Recognition.ipynb)
+- [Saved result images](results/)
 
 ## How to Run
 
