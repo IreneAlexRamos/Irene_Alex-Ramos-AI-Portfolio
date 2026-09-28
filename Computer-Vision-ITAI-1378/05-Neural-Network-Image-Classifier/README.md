@@ -16,6 +16,10 @@ Images are resized to 224 × 224, converted to tensors, normalized, and flattene
 
 Predictions often stayed close to 50/50 confidence, illustrating why flattening an image discards valuable spatial relationships.
 
+![Sample Chihuahua and muffin inputs](results/sample-inputs.png)
+
+![Validation predictions and confidence scores](results/validation-predictions.png)
+
 ## Key Findings
 
 - Adding dense layers does not solve the loss of image structure caused by flattening.
@@ -28,12 +32,13 @@ Python, PyTorch, Torchvision, Pillow, Matplotlib, and Google Colab.
 
 ## Data
 
-The tutorial dataset contains 120 training images and 30 validation images. It is downloaded at runtime from the credited public Chihuahua vs. Muffin workshop repository and is not duplicated here.
+The tutorial dataset contains 120 training images and 30 validation images. It is downloaded at runtime from the public [`patitimoner/workshop-chihuahua-vs-muffin`](https://github.com/patitimoner/workshop-chihuahua-vs-muffin) repository and is not duplicated here.
 
 ## Files
 
 - [MLP-Chihuahua-vs-Muffin.ipynb](MLP-Chihuahua-vs-Muffin.ipynb)
 - [MLP-Classifier-Reflection.pdf](MLP-Classifier-Reflection.pdf)
+- [Saved result images](results/)
 
 ## How to Run
 
