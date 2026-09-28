@@ -17,6 +17,10 @@ The PyTorch model uses 3 × 3 convolutional filters, ReLU activation, max poolin
 
 The validation set contains only 30 images, so the peak is not presented as evidence of production performance. The movement between 100%, 86.7%, 96.7%, and 90.0% also shows why small validation sets can produce unstable metrics.
 
+![A batch of training images](results/training-batch.png)
+
+![CNN validation predictions, with errors marked in red](results/validation-predictions.png)
+
 ## Key Findings
 
 - Convolution and pooling preserve local structure and learn visual features more effectively than a flattened dense network.
@@ -30,12 +34,13 @@ Python, PyTorch, Torchvision, NumPy, Matplotlib, TorchSummary, and Google Colab.
 
 ## Data
 
-The tutorial dataset contains 120 training images and 30 validation images. It is downloaded at runtime from the credited public Chihuahua vs. Muffin workshop repository and is not duplicated here.
+The tutorial dataset contains 120 training images and 30 validation images. It is downloaded at runtime from the public [`patitimoner/workshop-chihuahua-vs-muffin`](https://github.com/patitimoner/workshop-chihuahua-vs-muffin) repository and is not duplicated here.
 
 ## Files
 
 - [CNN-Chihuahua-vs-Muffin.ipynb](CNN-Chihuahua-vs-Muffin.ipynb)
 - [CNN-Classifier-Reflection.pdf](CNN-Classifier-Reflection.pdf)
+- [Saved result images](results/)
 
 ## How to Run
 
