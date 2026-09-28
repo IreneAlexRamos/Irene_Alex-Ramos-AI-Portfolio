@@ -1,6 +1,8 @@
 # Computer Vision and AI — ITAI 1378
 
-This course portfolio follows my progression from image fundamentals to modern computer vision models. It includes all completed assignments supplied for the portfolio, with descriptive file names, original notebook outputs, written reflections, and documentation for each project.
+This course portfolio follows my progression from image fundamentals to modern computer vision models. It includes all completed assignments supplied for the portfolio, with descriptive file names, original notebook outputs, separate result images, written reflections, and documentation for each project.
+
+Assignments 01 and 02 are written research and reflection artifacts. Assignments 03 through 07 are computational projects with executable notebooks and saved outputs. Assignment 08 is a completed midterm proposal; its future implementation is labeled separately so it is not mistaken for a finished model.
 
 ## Course Topics
 
@@ -24,7 +26,7 @@ This course portfolio follows my progression from image fundamentals to modern c
 | 05 | [Neural Network Image Classifier](05-Neural-Network-Image-Classifier/) | Notebook + reflection | Dense-network baseline for Chihuahua vs. Muffin |
 | 06 | [CNN: Chihuahua vs. Muffin](06-CNN-Chihuahua-vs-Muffin/) | Notebook + reflection | PyTorch convolution, pooling, training, and evaluation |
 | 07 | [Object Detection and Segmentation](07-Object-Detection-and-Segmentation/) | Notebook | YOLO11, YOLO11-seg, SAM 2, IoU, precision, recall, and mAP |
-| 08 | [Gnasher Group Midterm](08-Gnasher-Group-Midterm/) | Proposal | EfficientNet-B0 dog-group classifier blueprint |
+| 08 | [Gnasher Group Midterm](08-Gnasher-Group-Midterm/) | Completed proposal | EfficientNet-B0 dog-group classifier blueprint; implementation in progress |
 
 ## Suggested Review Path
 
