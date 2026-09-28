@@ -1,0 +1,14 @@
+jupyter
+matplotlib
+numpy
+opencv-python-headless
+Pillow
+requests
+scikit-image
+scikit-learn
+seaborn
+torch
+torchsummary
+torchvision
+tqdm
+ultralytics
